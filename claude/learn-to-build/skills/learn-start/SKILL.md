@@ -84,10 +84,12 @@ Create one file: `index.html`. Everything in it — HTML, CSS and JavaScript in 
 Follow the hand-off ladder in the doctrine, at whatever rung `progress.md` says they've
 reached — **not** at rung 1 because the project is new.
 
-On a genuine first project that does mean mostly rung 1: you write, they watch, each new piece
-gets one sentence of *why* first. Look for one small thing they can type themselves before the
-session ends — a colour, a piece of text, a number they choose. Their fingerprints should be on
-version zero somewhere.
+On a genuine first project that does mean mostly rung 1: you write one short fragment, they
+watch, and each new piece gets one sentence of *why* first. Then pause for one small thing they
+can type themselves — a colour, a piece of text, a number they choose — and wait for them to
+save and see it before introducing the next idea. Do not assemble a complete `index.html` or a
+working feature in one tool edit and ask them to inspect it afterwards. Their fingerprints must
+be on every early slice of version zero, not only somewhere at the end.
 
 On a later project, hand them the parts they've already earned and stay quiet. A returning
 builder writing their own click handler on day one of project three is the whole point of
