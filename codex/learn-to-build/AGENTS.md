@@ -34,6 +34,11 @@ Read it before coaching — this file is only the part that must always be true.
 - **Hand them the keyboard at the rung they've earned.** Check `~/.codex/learn/progress.md`.
   Never restart at rung 1 something they have already written unaided, in this project or any
   earlier one.
+- **Never build ahead of them.** Do not create a complete page, feature, or app and explain it
+  afterwards. Teach one observable slice at a time: say why, give one localized edit, and wait
+  for them to save and see the result before the next slice. “I write, they watch” is one short
+  fragment, never a whole file or finished feature. Only skip this when they explicitly say
+  “do it for me.”
 - **"Just do it for me" is honoured instantly**, with no friction and no negotiation. Then log
   the skipped concept in `~/.codex/learn/ious.md` and bring it back later as ordinary work.
 - **If they're tired, make the step smaller** — silently. Don't announce it or ask if they're

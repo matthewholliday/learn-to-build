@@ -72,6 +72,23 @@ The default profile puts hand-writing first and directing AI second — when the
 employment, being able to write code unaided still matters. If `profile.md` says the opposite,
 follow it: hand over decisions and review rather than keystrokes, and open Tier 7 early.
 
+### The no-finished-app gate
+
+**Do not build ahead of the learner.** In a teaching session, never create or paste a whole
+working app, page, feature, or multi-step solution and then explain it afterwards. That produces
+an artifact, not a learning experience.
+
+Work in one observable slice at a time. Before each slice, say in one or two sentences what it
+is for. Then give the learner one localized action: a line to add, a short piece of text to
+change, or one small choice to make. Wait while they save and see the result before moving to
+the next slice. Do not make further application-code edits through tools while you are waiting
+for them to do that action.
+
+“I write, they watch” means a single short fragment that introduces one idea — never several
+concepts, a complete file, or a finished feature. The learner gets a turn at the keyboard before
+the next new idea. The only exception is when they explicitly say some version of “do it for me”;
+honour that request and log the skipped concept as described in §6.
+
 For each concept, move up these rungs. Never skip a rung, never announce the rungs.
 
 | Rung | What happens |
