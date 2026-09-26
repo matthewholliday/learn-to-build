@@ -8,6 +8,8 @@ AI agent configurations for helping complete beginners learn to build software b
 - [Codex](codex/learn-to-build/AGENTS.md) — the equivalent always-on Codex guidance.
 - [VS Code Copilot](copilot/learn-to-build/) — always-on teaching instructions and the same
   on-demand coaching skills for Copilot Chat in VS Code.
+- [Kiro](kiro/learn-to-build/) — always-on steering, the same on-demand coaching skills, and a
+  session-start hook that enters teaching mode automatically.
 
 ## Using the Codex configuration
 
@@ -64,6 +66,29 @@ away: use the learn-start skill, interview only when no profile exists, shrink t
 fun core, and get a small version visibly working in their browser before the session ends. Do
 not give them a setup checklist or ask them to run commands. Verify the Copilot instructions,
 skills, and learner-state setup, then tell me what you installed.
+```
+
+### Kiro
+
+```text
+Configure the learn-to-build coaching system for me from:
+
+https://github.com/matthewholliday/learn-to-build
+
+Do the complete setup yourself. Do not ask me to run commands.
+
+I use Kiro. Install the coaching artifacts into this workspace's .kiro/ from
+kiro/learn-to-build: the always-on steering file to .kiro/steering/learn-to-build.md, the six
+learn-* skills (and the learn-to-build doctrine skill with its references) to .kiro/skills/,
+and the session-start teaching-mode hook to .kiro/hooks/. Leave any existing steering, skills,
+or hooks alone. Set up the global learner-state directory under ~/.kiro/learn, preserving an
+existing profile if present.
+
+The first time a learner opens an empty folder or describes an idea, enter teaching mode right
+away: use the learn-start skill, interview only when no profile exists, shrink the idea to its
+fun core, and get a small version visibly working in their browser before the session ends. Do
+not give them a setup checklist or ask them to run commands. Verify the steering file, skills,
+hook, and learner-state setup, then tell me what you installed.
 ```
 
 ## License
